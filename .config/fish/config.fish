@@ -13,3 +13,5 @@ end
 starship init fish | source
 zoxide init fish | source
 fzf init fish | source
+
+set fish_greeting ""
