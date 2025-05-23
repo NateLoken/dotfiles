@@ -1,5 +1,7 @@
 theme = catppuccin-mocha.conf
 
-font-family = "FiraCode Nerd Font"
+font-family = "Iosevka NFM"
 font-family-bold = auto
 font-size = 15.0
+
+macos-icon = retro
