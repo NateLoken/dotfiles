@@ -13,4 +13,4 @@ end
 starship init fish | source
 zoxide init fish | source
 
-set fish_greeting ""
+set fish_greeting | fortune | cowsay -f actually
