@@ -1,0 +1,76 @@
+[user]
+    name = Nate Loken
+    email = nfloken@gmail.com
+
+[core]
+    compression = 9
+    whitespace = error
+    preloadindex = true
+
+[url "git@github.com"]
+    insteadOf = "gh:"
+
+[init]
+    defaulBranch = dev
+
+[status]
+    branch = true
+    showStach = true
+    showUntackedFiles = all
+
+[diff]
+    renames = copies
+    interHunksContext = 10
+
+[pager]
+    diff = diff-so-fancy | $PAGER
+
+[diff-so-fancy]
+    markEmptyLines = false
+
+
+[interative]
+    diffFilter = diff-so-fancy --path
+
+[push]
+    autoSetupRemote = true
+    default = current
+    followTags = true
+
+[pull]
+    default = current
+    rebase = true
+
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warn
+
+[log]
+    abbrevCommit = true
+    graphColors = blue, yellow, cyan, magenta, green, red
+
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort = -taggerdate
+
+[color "diff"]
+    meta = black bold
+    frag = magenta
+    context = white
+    whitespace = yellow reverse
+    old = red
+
+[color "decorate"]
+    HEAD = red
+    branch = blue
+    tag = yellow
+    remoteBranch = magenta
+
+[color "branch"]
+    current = magenta
+    local = default
+    remote = yellow
+    upstream = green
+    plain = blue

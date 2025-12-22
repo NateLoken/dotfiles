@@ -1,11 +1,19 @@
 if status is-interactive
   alias vim="nvim"
-  alias gstat="git status"
-  alias gcln="git clone"
+  # Git commands
+  alias gs="git status --short"
+
   alias ga="git add"
-  alias gcb="git checkout"
-  alias gcm="git checkout main"
-  alias gcmsg="git commit -m"
+  alias gp="git push"
+  alias gu="git pull"
+  alias gf="git fetch"
+  alias gb="git branch"
+  alias gl="git log --all --graph --pretty=\
+      format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
+
+  alias gsw="git switch"
+  alias gc="git commit"
+  alias gcl="git clone"
   alias b="cd .."
     # Commands to run in interactive sessions can go here
 end
