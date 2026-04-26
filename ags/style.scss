@@ -1,0 +1,155 @@
+$gb_bg0: rgba(40, 40, 40, 0.94);
+$gb_bg1: rgba(60, 56, 54, 0.96);
+$gb_bg2: rgba(80, 73, 69, 0.96);
+$gb_line: rgba(146, 131, 116, 0.45);
+$gb_fg0: #fbf1c7;
+$gb_fg2: #d5c4a1;
+$gb_gray: #928374;
+$gb_yellow: #d79921;
+$gb_green: #98971a;
+$gb_blue: #458588;
+$gb_orange: #d65d0e;
+
+* {
+  font-family: "Iosevka", "Iosevka Term", "JetBrains Mono", "FiraCode Nerd Font", monospace;
+  font-size: 12px;
+}
+
+.IslandWindow {
+  background: transparent;
+}
+
+.island-stage {
+  margin-top: 4px;
+}
+
+.island {
+  min-height: 30px;
+  padding: 4px 7px;
+  border-radius: 10px;
+  border: 1px solid $gb_line;
+  color: $gb_fg0;
+  background: rgba(50, 47, 44, 0.94);
+  box-shadow:
+    0 0 0 1px rgba(29, 32, 33, 0.84) inset,
+    0 1px 0 rgba(251, 241, 199, 0.06) inset,
+    0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.island button {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.segment {
+  padding: 4px 7px;
+  border-radius: 8px;
+  border: 1px solid rgba(146, 131, 116, 0.42);
+  background: rgba(40, 40, 40, 0.82);
+  box-shadow: 0 1px 0 rgba(251, 241, 199, 0.04) inset;
+}
+
+.workspaces {
+  border-radius: 999px;
+  border-color: rgba(146, 131, 116, 0.5);
+  background: rgba(60, 56, 54, 0.98);
+  padding: 4px 8px;
+}
+
+.ws {
+  min-width: 20px;
+  min-height: 12px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  transition: background-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ws-stack {
+  min-width: 7px;
+  min-height: 7px;
+  border-radius: 999px;
+  background: rgba(213, 196, 161, 0.6);
+  transition:
+    padding 320ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.ws.active {
+  min-width: 14px;
+  min-height: 7px;
+  background: transparent;
+}
+
+.ws.active .ws-stack {
+  padding: 0 6px;
+  background: $gb_yellow;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.16) inset;
+}
+
+.active-window {
+  border-radius: 999px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.right-cluster {
+  margin-left: 1px;
+}
+
+.connectivity-module {
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: rgba(40, 40, 40, 0.9);
+}
+
+.clock-module {
+  border-radius: 999px;
+  padding: 4px 9px;
+  min-width: 132px;
+}
+
+.status-icon {
+  font-size: 13px;
+  min-width: 14px;
+}
+
+.wifi.connected {
+  color: $gb_blue;
+}
+
+.wifi.disconnected {
+  color: $gb_orange;
+}
+
+.wifi.off {
+  color: $gb_gray;
+}
+
+.active-label,
+.clock-label {
+  color: $gb_fg0;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+.icon-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.bt.connected .status-icon {
+  color: $gb_green;
+}
+
+.bt.on .status-icon {
+  color: $gb_yellow;
+}
+
+.bt.off .status-icon {
+  color: $gb_gray;
+}

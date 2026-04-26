@@ -1,7 +1,0 @@
-theme = catppuccin-mocha.conf
-
-font-family = "Iosevka NFM"
-font-family-bold = auto
-font-size = 17.0
-
-macos-icon = retro

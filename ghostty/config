@@ -1,0 +1,7 @@
+theme = Gruvbox Dark
+
+font-family = "Iosevka NFM"
+font-family-bold = auto
+font-size = 17.0
+
+macos-icon = retro
