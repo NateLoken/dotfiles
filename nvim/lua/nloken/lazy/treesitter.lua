@@ -2,7 +2,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     version = false,
     build = ":TSUpdate",
-    lazy = false, -- current main branch says no lazy-loading
     opts = {
         install_dir = vim.fn.stdpath("data") .. "/site",
     },
