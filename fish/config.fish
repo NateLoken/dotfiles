@@ -23,3 +23,6 @@ zoxide init fish | source
 jj util completion fish | source
 
 set fish_greeting ""
+
+# opencode
+fish_add_path /home/vaelis/.opencode/bin
