@@ -18,11 +18,13 @@ return {
 			local opts = { buffer = bufnr, remap = false }
 
 			-- Rebase always
-			vim.keymap.set("n", "<leader>P", function()
+			vim.keymap.set("n", "<leader>gp", function()
 				vim.cmd.Git({ "pull", "--rebase" })
 			end, opts)
 
-			vim.keymap.set("n", "<leader>t", ":Git push -u origin", opts)
+			vim.keymap.set("n", "<leader>gc", ":Git commit", opts)
+
+			vim.keymap.set("n", "<leader>gu", ":Git push -u origin", opts)
 		end
 	end,
 }

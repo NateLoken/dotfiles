@@ -325,6 +325,6 @@ hl.window_rule({
 
 	float = true,
 	pin = true,
-	size = "550 600",
+	size = "485 450",
 	center = true,
 })
