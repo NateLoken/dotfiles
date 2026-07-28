@@ -46,7 +46,7 @@ hl.on("hyprland.start", function()
 
 	hl.exec_cmd(terminal, { workspace = "1 silent" })
 	hl.exec_cmd("flatpak run app.zen_browser.zen", { workspace = "2 silent" })
-	hl.exec_cmd("flatpak run com.discordapp.Discord", { workspace = "special:discord silent" })
+	hl.exec_cmd("discord", { workspace = "special:discord silent" })
 	--hl.exec_cmd("qs -c basedgoose.shell")
 	hl.exec_cmd("hyprpaper")
 	hl.exec_cmd("hypridle")

@@ -1,10 +1,13 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export PROJECTS:/home/vaelis/Documents/projects\x1e/home/vaelis/dotfiles
+SETUVAR --export XCURSOR_SIZE:24
+SETUVAR --export XCURSOR_THEME:Bibata\x2dModern\x2dIce
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/home/nloken/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/home/nloken/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/home/nloken\x24
+SETUVAR Z_DATA:/home/vaelis/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/home/vaelis/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/vaelis\x24
 SETUVAR __fish_initialized:4300
 SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
@@ -22,7 +25,7 @@ SETUVAR _fisher_patrickf1_2F_colored__man__pages_2E_fish_files:\x7e/\x2econfig/f
 SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/plugin\x2dpj\x1efranciscolourenco/done\x1epatrickf1/colored_man_pages\x2efish\x1emarkcial/upto\x1eorefalo/grc\x1ejorgebucaran/getopts\x2efish\x1eedc/bass\x1emeaningful\x2dooo/sponge\x1ejustinmayer/virtualfish\x1ejorgebucaran/autopair\x2efish\x1ecatppuccin/fish\x1ejethrokuan/z\x1epatrickf1/fzf\x2efish\x1ejorgebucaran/nvm\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR fish_user_paths:/home/nloken/go/bin\x1e/home/nloken/\x2ecargo/bin\x1e/home/nloken/\x2elocal/bin
+SETUVAR fish_user_paths:/home/vaelis/\x2eopencode/bin\x1e/home/vaelis/go/bin\x1e/home/vaelis/\x2ecargo/bin\x1e/home/vaelis/\x2elocal/bin
 SETUVAR sponge_allow_previously_successful:true
 SETUVAR sponge_delay:2
 SETUVAR sponge_filters:sponge_filter_failed\x1esponge_filter_matched
