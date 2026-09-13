@@ -16,7 +16,7 @@ hl.monitor({
 ---- MY PROGRAMS ----
 ---------------------
 
-local terminal = "ghostty"
+local terminal = "foot"
 local fileManager = "thunar"
 local menu = "~/.local/bin/otter-menu"
 
